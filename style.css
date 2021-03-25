@@ -12,7 +12,7 @@
   text-align: right;
 }
 
-.header img {
+.matrix-img {
   width: 100%;
 }
 
@@ -73,8 +73,7 @@ button:hover {
 }
 
 /* Heading */
-h3,
-label[for="new-task"] {
+.title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -111,7 +110,7 @@ label[for="new-task"] {
   width: 318px;
 }
 
-p > button:hover {
+section > button:hover {
   color: #0fc57c;
 }
 

@@ -13,7 +13,7 @@
 </head>
 <body class="general-wrapper">
   <header class="header">
-    <img src="./eisenhower-matrix.jpg" alt="Eisenhower matrix">
+    <img class="matrix-img" src="./eisenhower-matrix.jpg" alt="Eisenhower matrix">
     <a 
         class="more-info"
         href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?
@@ -22,13 +22,13 @@
   <main class="main">
     <section id="add-task">
       <h1 class="visually-hidden">Todo List</h1>
-      <label for="new-task">Add Item</label>
+      <label class="title" for="new-task">Add Item</label>
       <div class="task-row-wrapper">
         <input id='new-task'class="task" type="text">
         <button>Add</button>
     </div>
     </section>
-    <h3>Todo</h3>
+    <h3 class="title">Todo</h3>
     <ul id="todo-tasks">
       <li>
         <input type="checkbox">
@@ -45,7 +45,7 @@
         <button class="delete-task"><img src="./remove.svg" alt=""></button>
       </li>
     </ul>
-    <h3>Completed</h3>
+    <h3 class="title">Completed</h3>
     <ul id="done-tasks">
       <li><input type="checkbox" checked>
         <label class="task">See the Doctor</label>
